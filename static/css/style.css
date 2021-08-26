@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.container input[type=file]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #a29bfe;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.container input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: rgb(251, 42, 42);
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+
+/*# sourceMappingURL=style.css.map */
